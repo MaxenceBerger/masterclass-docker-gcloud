@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-server
+  labels:
+    app: react-server
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: react-server
+      run: react-server
+  template:
+    metadata:
+      labels:
+        app: react-server
+        run: react-server
+    spec:
+      containers:
+      - name: react-server
+        image: registrydockerjeremyagr/react-web-app
