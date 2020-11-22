@@ -31,6 +31,7 @@ docker login
 docker tag react-web-app (id docker)/react-web-app
 docker push (id docker)/react-web-app
 ```
+https://hub.docker.com/r/maxenceb33/react-web-app
 - Connect to the cluster
 
 ```
