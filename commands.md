@@ -65,9 +65,9 @@ kubectl apply -f ./ingress.yaml
 kubectl get ingress
 ```
 - After few minutes, you can get the IP address of your Ingress previously  created (note it in commands.pdf). Try to target this IP using your favorite  browser. Normally at this step you have the website running and serving the  internet traffic. 
-```
+
 http://34.120.199.31
-```
+
 - Create an HPA resource to autoscale your Deployment resource like: min=3,  max=50, and autoscale when the CPU reach 65% of its capacity
 ```
 kubectl apply -f ./hpa.yaml
