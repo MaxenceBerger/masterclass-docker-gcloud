@@ -6,6 +6,7 @@
 You have to clone this repo: https://github.com/lholmquist/react-web-app (please read the README, you have all information about how to install its dependencies, launch it, build it and deploy it)
 
 From this part please note all your commands in a pdf document named commands.pdf .
+(https://github.com/MaxenceBerger/masterclass-docker-gcloud/blob/master/commands.md)
 
 You have to centenaries the react-web-app using Docker.
 
